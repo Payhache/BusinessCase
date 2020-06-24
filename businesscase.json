@@ -1,0 +1,12 @@
+{
+  "voitures": [
+    {
+      "id": 1,
+      "marque": "Peugeot",
+      "model": "308",
+      "img": "https://visuel3d-secure.peugeot.com/V3DImage.ashx?client=CFGAP3D&ratio=1&format=jpg&quality=90&version=1PT9A5FNNKB0A0E0&color=0MP00N9G&trim=0P1P0RFX&width=640",
+      "kmtrage": 250000,
+      "annee": 1984
+    }
+  ]
+}

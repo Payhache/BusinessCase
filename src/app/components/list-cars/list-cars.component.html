@@ -1,0 +1,14 @@
+<div class="boite" *ngFor="let voiture of this.voitures">
+    <h1> Marque : {{voiture.marque}} </h1>
+    <img src="{{voiture.img}}" width="400px"alt="">
+    <h2> Modèle : {{voiture.model}} </h2>
+    <h2> Km : {{voiture.kmtrage}} </h2>
+    <h2> Année : {{voiture.annee}}</h2>
+    <button [routerLink]="['/detailsVoiture', voiture.id]"> Détails Voiture</button>
+    <button> Modifier Voiture</button>
+    <button> Supprimer Voiture</button>
+</div>
+
+
+
+

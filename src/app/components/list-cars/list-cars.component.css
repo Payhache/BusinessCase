@@ -1,0 +1,10 @@
+.boite {
+    border: black solid 1px;
+    background-color: lightgray;
+    width: 420px;
+}
+
+h1 {
+    padding: 5rem;
+    font-size: 1.9rem;
+}
